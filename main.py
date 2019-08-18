@@ -1,3 +1,4 @@
+print("hola bienvenido a el software para solucionar ecuaciones de tipo, ax2+bx+c")
 a=int(input("ingrese el numero del primer termino: "))
 b=int(input("ingrese el numero del segundo termino: "))
 c=int(input("ingrese el numero del tercer termino: "))
