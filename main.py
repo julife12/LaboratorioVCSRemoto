@@ -7,3 +7,10 @@ if d<0:
     x1=(-(b)+(d**0.5))/doble
     x2=(-(b)-(d**0.5))/doble
     print("la solucion para x1= ", x1, "la solucion para x2= ", x2)
+elif d==0:
+    x=(-(b))/doble
+    print("la solucion es x= ", x)
+else:
+    print("no existe solucion en los numeros")
+
+
