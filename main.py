@@ -1,7 +1,6 @@
-a=int(input("ingrese el primer numero: "))
-c=int(input("ingrese el segundo numero: "))
-b=int(input("ingrese el numero para encontrar cuadrado: "))
-d=int(input("ingrese el numero para encontrar la raiz cuadrada: "))
+a=int(input("ingrese el numero del primer termino: "))
+b=int(input("ingrese el numero del segundo termino: "))
+c=int(input("ingrese el numero del tercer termino: "))
 total=a*c
 print("el resultado es: ", total)
 doble=a*2
