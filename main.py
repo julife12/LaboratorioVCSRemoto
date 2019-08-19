@@ -1,7 +1,7 @@
-print("hola bienvenido a el software para solucionar ecuaciones de tipo, ax2+bx+c")
-a=int(input("ingrese el numero del primer termino: "))
-b=int(input("ingrese el numero del segundo termino: "))
-c=int(input("ingrese el numero del tercer termino: "))
+print("hola bienvenido a el software para solucionar ecuaciones de tipo, ax^2+bx+c")
+a=int(input("ingrese el termino a: "))
+b=int(input("ingrese el termino b: "))
+c=int(input("ingrese el termino c: "))
 cuadrado= b*b
 multiplicacion=a*c
 d= cuadrado-4*multiplicacion
@@ -19,6 +19,6 @@ else:
         x=(-b)/doble
         print("la solucion es x= ", x)
     else:
-        print("no existe solucion en los numeros")
+        print("no existe solucion en los terminos descritos")
 
-
+        
